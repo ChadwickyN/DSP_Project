@@ -1,0 +1,15 @@
+%% Variable Definition
+
+% Frequency Variable for sine wave
+Freq_Sine = 1;
+
+% for the Diraw function we want a pulse of a singal step
+step_size = .01
+Period 
+
+
+%% Run Simulation
+
+%% Log Results
+
+%% Display Results
