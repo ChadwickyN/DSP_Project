@@ -12,7 +12,7 @@ pulse_width = (step_size/period);
 %% Run Simulation
 %% HPF
 sim('HPF_Root.slx')
-
+ 
 % %% BPF
 % sim('BPF_Root.slx')
 % %% Main
