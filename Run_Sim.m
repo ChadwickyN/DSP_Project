@@ -1,3 +1,5 @@
+%%
+cd 'C:\Users\chadw\OneDrive\Desktop\DSP\Project\DSP_Project\Models'
 %% Variable Definition
 
 % Frequency Variable for sine wave
