@@ -14,12 +14,7 @@ Unfiltered_Violin = [t,Violin_Sample_Data_i];
 plot(Violin_Sample_Data_i,t,Violin_Sample_Data_ii,t)
 
 %% HPF
-
 % Load Path
-cd 'C:\Users\chadw\OneDrive\Desktop\DSP\Project\DSP_Project\Models'
-
-
-
 % Project Requirements
 Ripple = .25; % dB
 Roll_Off = 40; % dB/decade
@@ -38,7 +33,7 @@ HPF_PassBand_Amp = Ripple*2; %.1; %Db
 
 % Run Sim
 sim('HPF.slx')
-%open('HPF.slx')
+open('HPF.slx')
 
 %% Filtered Violin Graph
 Filtered_violin = ans.Violin_Filtered;
