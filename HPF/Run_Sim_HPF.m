@@ -1,3 +1,14 @@
+%% Activity 3 - Varying Sine wave
+% Simulink has a max of 100 frequencies
+step = 10000;
+Start_Freq = 1; %Hz
+End_Freq = 100000; %Hz
+Vary_Sine_Feq = Start_Freq:step:End_Freq;
+
+%% Activity 3 - Varying Diraq wave
+
+
+
 %% Read Audio Files
 % Ploting this takes a while due to the size of the vectors
 
