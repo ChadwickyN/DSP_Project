@@ -33,7 +33,7 @@ End_Freq = 100000; %Hz
 %Vary_Sine_Var = Start_Freq:step:End_Freq; 
 Vary_Sine_Var = [100, 1000, 100000, 200000];
 
-Vary_Sine_Feq = Vary_Sine_Var;
+Vary_Sine_Feq = Vary_Sine_Var
 
 % Activity 3 - Varying Diraq wave
 
@@ -53,9 +53,6 @@ Violin_Sample_Data_ii = Violin_Sample_Data(:,2);
 
 Unfiltered_Violin = [t,Violin_Sample_Data_i];
 
-%plot(Violin_Sample_Data_i,t,Violin_Sample_Data_ii,t)
-
-open('BPF_Activity3.slx');
-
+plot(Violin_Sample_Data_i,t,Violin_Sample_Data_ii,t)
 
 %% Display Results
