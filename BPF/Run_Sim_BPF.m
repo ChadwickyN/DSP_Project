@@ -1,8 +1,11 @@
 %% BPF
 % Variable Defintions Sine Wave
-BPF_Sine_Amplitude = 1; %Sine wave amp
-BPF_Sine_Freq = 100; %Hz
 
+
+BPF_Sine_Amplitude = -35.055; %Sine wave amp
+BPF_Sine_Freq = 4409.5; %Hz
+
+%%%% BANDPASS FILTER DESIGN %%%%
 % Variable Defintions - Band Pass Filter
 MHz_Conv = 1e-6;
 
@@ -20,8 +23,6 @@ BPF_PassBand_Norm_Freq2 = 10/pi; %12e3; %Hz
 
 BPF_StopBand_Amp1 = 80; %Db
 BPF_StopBand_Amp2 = 80; %.1; %Db
-
-% Run Sim
 
 %% Activity 2 - Varying Sine wave and Dirac function
 % Simulink has a max of 100 frequencies for sine wave
